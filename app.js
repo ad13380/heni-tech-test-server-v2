@@ -1,8 +1,10 @@
-const app = require("express")();
+const express = require("express");
+const app = express();
 const cors = require("cors");
 const routes = require("./routes/prints");
 
 app.use(cors());
+app.use(express.json());
 
 app.get("/", (req, res) => res.send("This server is working"));
 
