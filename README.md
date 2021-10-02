@@ -1,5 +1,8 @@
 # Heni Tech Test Server
 
+This app has been deployed, you visit it here: https://heni-techtest-server.herokuapp.com/api/prints?page=23
+(as this was deployed on a Heroku free account, load times may be slow at first)
+
 ## Setup
 
 To run this locally please install Node.js and install the dependencies by running:
