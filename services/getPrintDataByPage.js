@@ -1,7 +1,7 @@
 const axios = require("axios");
 const { baseURL, baseParams, headers } = require("../config/apiConfiguration");
 
-const getPrintDataByPage = async (page) => {
+const getPrintDataByPage = async (page = "1") => {
   const response = await axios.get("/object", {
     baseURL,
     params: {
